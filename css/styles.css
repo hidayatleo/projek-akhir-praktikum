@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .logo {
+    height: 50px; /* Sesuaikan ukuran logo */
+    margin-right: 20px; /* Beri jarak antara logo dan teks */
+    margin-left: -20px;
+}
+
+header {
+    background: linear-gradient(to right, #185ADB, #00A8E8);
+    padding: 15px 30px;
+    text-align: center;
+    color: white;
+    height: auto;
+    margin-top: -20px;
+}
+
+.header-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.lead {
+    font-size: 1em;
+}
+
+.footer {
+    background-color: white;
+    color: white;
+    padding: 30px;
+}
+
+.footer p {
+    margin: 5px;
+}
+    .alert-success {
+        background-color: #dff0d8;
+        color: #3c763d;
+        border: none;
+        border-radius: 0;
+        margin-bottom: 0;
+        padding: 15px;
+    }
+
+    .content {
+        margin-top: 900px; /* Mengurangi margin-top menjadi 80px */
+    }
